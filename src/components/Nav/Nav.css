@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    background: linear-gradient(35deg,purple,blue);
+    border: 2px solid black;
+    color: whitesmoke;
+}
+   
+    
+nav ul li {
+    display: inline-block;
+    margin: auto 40px auto auto;
+}
+
+
+nav ul li a {
+    text-decoration: none;
+    font-size: larger;
+    color: white;
+}
