@@ -5,7 +5,7 @@ function Resume() {
     return(
         <div id="resume">
         <h1 className="resume">RESUME</h1>
-        <div class="resume-intro">
+        <div className="resume-intro">
             <Row>
                 <Col lg={8} md={12}>
                     Full Stack Web Developer who possesses technical skills within the MERN stack. Always continuously learning and trying to do better.
@@ -13,10 +13,10 @@ function Resume() {
             </Row>
         </div>
 
-        <div class="resume-container">
+        <div className="resume-container">
             <Row>
                 <Col lg={4} md={12}>
-                <h2 class="resume">FRONT END PROFICIENCIES</h2>
+                <h2 className="resume">FRONT END PROFICIENCIES</h2>
                 <ul>
                     <li>
                         HTML
@@ -46,7 +46,7 @@ function Resume() {
                 </Col>
         
             <Col lg={4} md={12}>
-            <h2 class="resume">BACK END PROFICIENCIES</h2>
+            <h2 className="resume">BACK END PROFICIENCIES</h2>
                 <ul>
                     <li>
                         Node.js
