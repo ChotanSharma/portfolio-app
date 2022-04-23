@@ -2,13 +2,18 @@ import React, { useState } from 'react';
 
 function ContactForm() {
     
-    const [formState, setFormState] = useState({ name: '', email: '', message: '' });
-    const { name, email, message } = formState;
-    function handleChange(e) {
-        setFormState({...formState, [e.target.name]: e.target.value })
-      }
+        const [formState, setFormState] = useState({ name: '', email: '', message: '' });
+        const { name, email, message } = formState;
+        function handleChange(e) {
+            setFormState({...formState, [e.target.name]: e.target.value })
+        }
       
       console.log(formState);
+
+      function handleSubmit(e) {
+        e.preventDefault();
+        console.log(formState);
+      }  
     return (
         <section id="contact">
           <h1>Contact me:</h1>
@@ -25,7 +30,7 @@ function ContactForm() {
                 <label htmlFor="message">Message:</label>
                 <textarea name="message" defaultValue={message} rows="5" onChange={handleChange} />
                 </div>
-                <button type="submit">Submit</button>
+                <button type="submit" onSubmit={handleSubmit}>Submit</button>
           </form>
         </section>
       )
