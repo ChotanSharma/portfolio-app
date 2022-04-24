@@ -4,9 +4,9 @@ import Nav from './components/Nav';
 import Portfolio from "./components/Portfolio";
 import Resume from "./components/Resume";
 import ContactForm from "./components/Contact";
-//import Contact from "./components/contact";
-
+import Footer from './components/Footer';
 import './App.css';
+
 
 function App() {
   
@@ -20,6 +20,7 @@ function App() {
       <Portfolio></Portfolio>
       <Resume></Resume>
       <ContactForm></ContactForm>
+      <Footer></Footer>
       </main>
     </div>
   );
