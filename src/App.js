@@ -9,14 +9,17 @@ import ContactForm from "./components/Contact";
 import './App.css';
 
 function App() {
+  
   return (
     <div>
-      <Nav></Nav>
+      <Nav>
+    
+      </Nav>
       <main>
-        <About></About>
-        <Portfolio></Portfolio>
-        <Resume></Resume>
-        <ContactForm></ContactForm>
+      <About></About>
+      <Portfolio></Portfolio>
+      <Resume></Resume>
+      <ContactForm></ContactForm>
       </main>
     </div>
   );
