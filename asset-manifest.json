@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/portfolio-app/static/css/main.5453735b.css",
+    "main.js": "/portfolio-app/static/js/main.c262c408.js",
+    "static/js/787.30237536.chunk.js": "/portfolio-app/static/js/787.30237536.chunk.js",
+    "static/media/random-travel-generator.png": "/portfolio-app/static/media/random-travel-generator.11dda4b9e32a5c05399b.png",
+    "static/media/email.png": "/portfolio-app/static/media/email.9ba9edcd254ad46a3131.png",
+    "index.html": "/portfolio-app/index.html",
+    "main.5453735b.css.map": "/portfolio-app/static/css/main.5453735b.css.map",
+    "main.c262c408.js.map": "/portfolio-app/static/js/main.c262c408.js.map",
+    "787.30237536.chunk.js.map": "/portfolio-app/static/js/787.30237536.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5453735b.css",
+    "static/js/main.c262c408.js"
+  ]
+}
