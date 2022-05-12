@@ -1,11 +1,11 @@
 import React from 'react';
-import photo from "../../assets/images/random-travel-generator.png";
+import photo from "../../assets/images/A picture of my project.png";
 
 function Portfolio(Props) {
     const currentCategory = {
-        name: "Random-Travel-Generator",
+        name: "Professional-ReadMe",
         description:
-          "A application to help traveller to choose next destination.",
+          "An application to help the developers to prepare a quick README.md for their github repository.",
       };
       return (
         <section id="portfolio">
